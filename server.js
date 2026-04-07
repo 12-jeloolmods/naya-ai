@@ -60,8 +60,8 @@ app.post("/chat", async (req, res) => {
 });
 
 // ⚠️ WAJIB pakai ini di Railway
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 8080;
 
 app.listen(PORT, () => {
-  console.log("Server jalan di port " + PORT);
+  console.log("Server jalan di port" + PORT);
 });
